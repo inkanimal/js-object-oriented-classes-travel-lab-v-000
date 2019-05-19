@@ -23,7 +23,7 @@ class Route {
     this.beginningLocation = beginningLocation;
     this.endingLocation = endingLocation;
   }
-  blocksTraveled(){
+  blocksTravelled(){
       let horizontalStart = eastWest.indexOf(this.beginningLocation.horizontal);
     let verticalStart = this.beginningLocation.vertical;
     let horizontalEnd = eastWest.indexOf(this.endingLocation.horizontal);
