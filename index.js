@@ -37,6 +37,12 @@ class Route {
     return horizontalChange+verticalChange;
   }
   estimatedTime(){
-    
+       if (bool) {
+      return this.blocksTravelled()/2;
+    }
+    else {
+      return this.blocksTravelled()/3;
+    }
   }
+  
   }
