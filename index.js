@@ -24,6 +24,17 @@ class Route {
     this.endingLocation = endingLocation;
   }
   blocksTraveled(){
-    
+      let horizontalStart = eastWest.indexOf(this.beginningLocation.horizontal);
+    let verticalStart = this.beginningLocation.vertical;
+    let horizontalEnd = eastWest.indexOf(this.endingLocation.horizontal);
+    let verticalEnd = this.endingLocation.vertical;
+ 
+    let verticalChange = Math.abs(verticalEnd-verticalStart);
+
+    let horizontalChange = Math.abs(horizontalEnd-horizontalStart);
+
+
+    return horizontalChange+verticalChange;
   }
+  
 }
