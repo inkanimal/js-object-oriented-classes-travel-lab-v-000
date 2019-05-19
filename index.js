@@ -36,8 +36,8 @@ class Route {
 
     return horizontalChange+verticalChange;
   }
-  estimatedTime(){
-       if (bool) {
+  estimatedTime(time){
+       if (time) {
       return this.blocksTravelled()/2;
     }
     else {
