@@ -1,3 +1,5 @@
 class Driver {
-  constructor
-}
+ constructor(name, email) {
+    this.name = name;
+    this.email = email;
+  }
