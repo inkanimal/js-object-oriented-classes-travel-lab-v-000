@@ -1,5 +1,5 @@
 class Driver {
- constructor(name, email) {
-    this.name = name;
-    this.email = email;
+ constructor(name, startDate) {
+     this.name = name;
+    this.startDate = new Date(startDate);
   }
